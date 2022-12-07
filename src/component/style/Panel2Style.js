@@ -8,6 +8,7 @@ const useStyle = makeStyles({
     color: "#fff;",
     marginTop: "50px",
     paddingTop: "40px",
+    paddingBottom: "40px",
   },
   technologyContainer: {
     display: "flex",
