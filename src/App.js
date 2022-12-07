@@ -5,6 +5,8 @@ import Panel1 from "./component/Panel1";
 import Panel2 from "./component/Panel2";
 import Panel3 from "./component/Panel3";
 import Panel4 from "./component/Panel4";
+import Panel5 from "./component/Panel5";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Panel2 />
       <Panel3 />
       <Panel4 />
+      <Panel5 />
+      <Footer />
     </div>
   );
 }
