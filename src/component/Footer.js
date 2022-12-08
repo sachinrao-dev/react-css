@@ -5,7 +5,9 @@ function Footer() {
   const classes = useStyle();
   return (
     <div className={classes.footerContainer}>
-      <h1>© Copyright Ballistic Learning Pvt Ltd. All Rights Reserved.</h1>
+      <span className={classes.footerHeading}>
+        © Copyright Ballistic Learning Pvt Ltd. All Rights Reserved.
+      </span>
     </div>
   );
 }

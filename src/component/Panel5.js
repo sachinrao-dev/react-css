@@ -11,9 +11,15 @@ function Panel5() {
       </div>
       <div className={classes.panel5Container}>
         <div className={classes.btn}>
-          <Button variant="outlined">Learn How</Button>
-          <Button variant="outlined">Learn How</Button>
-          <Button variant="outlined">Learn How</Button>
+          <div className={classes.btn1}>
+            <Button variant="outlined" className={classes.portfolio}>PortFolio</Button>
+          </div>
+          <div className={classes.btn2}>
+            <Button variant="outlined" className={classes.studies}>Case Studies</Button>
+          </div>
+          <div className={classes.btn3}>
+            <Button variant="outlined" className={classes.contact}>Contact Us</Button>
+          </div>
         </div>
       </div>
     </div>

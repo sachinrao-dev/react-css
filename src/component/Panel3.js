@@ -13,7 +13,7 @@ function Panel3() {
         <h2>Sectors we work for</h2>
       </div>
       <div className={classes.iconContainer}>
-        <BusinessIcon className={classes.iconMui} />
+        <BusinessIcon />
         <ContactsIcon />
         <SchoolIcon />
         <GroupsIcon />

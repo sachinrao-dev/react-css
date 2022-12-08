@@ -16,7 +16,7 @@ function Panel4() {
           eLearning solutions to enhance outreach, teaching & assessment
           practices, and student engagement.
         </p>
-        <Button variant="contained">Contained</Button>
+        <Button variant="contained">Explore</Button>
       </div>
     </div>
   );

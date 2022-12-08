@@ -29,6 +29,27 @@ const useStyle = makeStyles({
     position: "absolute",
     right: "0",
   },
+  btn1: {
+    margin: "10px 0",
+    "& button": {
+      border: "1px solid green",
+      width: "100%",
+    },
+  },
+  btn2: {
+    margin: "10px 0",
+    "& button": {
+      border: "1px solid red",
+      width: "100%",
+    },
+  },
+  btn3: {
+    margin: "10px 0",
+    "& button": {
+      border: "1px solid yellow",
+      width: "100%",
+    },
+  },
 });
 
 export default useStyle;

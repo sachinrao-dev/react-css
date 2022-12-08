@@ -15,16 +15,19 @@ const useStyle = makeStyles({
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-between",
+    "& svg": {
+      // background: "red",
+      height: "90px",
+      width: "90px",
+      border: "1px solid",
+      borderRadius: "50px",
+      padding: "10px",
+      opacity: "0.5",
+    },
   },
   selector: {
     marginTop: "30px",
     marginBottom: "30px",
-  },
-  iconMui: {
-    background: "red",
-    // padding: "22px",
-    fontSize: "40px",
-    // width: "50px",
   },
 });
 
